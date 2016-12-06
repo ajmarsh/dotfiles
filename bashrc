@@ -7,7 +7,12 @@ export PATH
 
 # Unbreak broken, non-colored terminal
 export TERM='xterm-color'
-alias ls='ls -G'
+#ls no fruit salad
+#alias ls='ls -G'
+
+#colorful ls
+alias ls='ls --color=auto'
+
 alias ll='ls -lG'
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
