@@ -12,6 +12,9 @@ export HISTSIZE=100000
 # Append to the history file when exiting instead of overwriting it
 shopt -s histappend
 
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
+
+
 #ssh autocomplete
 _complete_hosts () {
     COMPREPLY=()
