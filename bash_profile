@@ -35,4 +35,4 @@ complete -F _complete_hosts host
 
 
 #fun
-screenfetch
+neofetch

@@ -11,7 +11,7 @@ export TERM='xterm-color'
 #alias ls='ls -G'
 
 #colorful ls
-alias ls='ls --color=auto'
+alias ls='ls -G'
 
 alias ll='ls -lG'
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
