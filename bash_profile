@@ -36,3 +36,5 @@ complete -F _complete_hosts host
 
 #fun
 neofetch
+
+#comment
