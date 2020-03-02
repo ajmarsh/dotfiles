@@ -5,6 +5,12 @@
 PATH=$PATH:$HOME/bin
 export PATH
 
+# uncomment if working with go lang installed via homebrew
+#export GOPATH=$HOME/golang
+#export GOROOT=/usr/local/opt/go/libexec
+#export PATH=$PATH:$GOPATH/bin
+#export PATH=$PATH:$GOROOT/bin
+
 # Unbreak broken, non-colored terminal
 export TERM='xterm-color'
 #ls no fruit salad
