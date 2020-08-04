@@ -24,7 +24,9 @@ export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 
 # prompt
-export PS1="\t \u@\h \[$(tput sgr0)\]\[\033[38;5;1m\]\\$\[$(tput sgr0)\]"
+export PS1="\u@\h \[$(tput sgr0)\]\[\033[38;5;1m\]\\$\[$(tput sgr0)\]"
 
 #keep infinate history files
 HISTFILE="${HOME}/.history/$(date -u +%Y/%m/%d.%H.%M.%S)_${HOSTNAME_SHORT}_$$"
+
+
