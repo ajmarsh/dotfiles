@@ -9,3 +9,5 @@ echo "export HISTFILESIZE=10000" >> ~/.bash_profile
 # Set how many commands to keep in the current session history list
 echo "export HISTSIZE=800" >> ~/.bash_profile
 
+# Set Prompt
+PS1='\$\u@\h'
