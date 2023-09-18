@@ -1,2 +1,12 @@
 syntax on
 filetype on
+
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
+
+" Enable use of the mouse for all modes
+set mouse=a
+
+" Disable auto comment
+set formatoptions-=cr
