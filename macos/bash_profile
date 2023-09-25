@@ -10,4 +10,14 @@ echo "export HISTFILESIZE=10000" >> ~/.bash_profile
 echo "export HISTSIZE=800" >> ~/.bash_profile
 
 # Set Prompt
-PS1='\$\u@\h'
+PS1='\u@\h\$'
+
+export HISTFILESIZE=10000
+export HISTSIZE=800
+export HISTFILESIZE=10000
+export HISTSIZE=800
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
