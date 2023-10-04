@@ -10,3 +10,9 @@ set mouse=a
 
 " Disable auto comment
 set formatoptions-=cr
+
+" Turn on syntax highlighting
+syntax on
+
+" Visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
